@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+body {
+  font-family: 'Satisfy', cursive;
+  font-size: 20px; 
+  background-color: #121212;
+  color: #f1f1f1;
+  padding: 0 20px;
+  margin: 0;
+  line-height: 1.8;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+
+
+header {
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 1px solid #66bb6a;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 0;
+  margin: 10px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #66bb6a;
+  font-size: 18px;
+}
+
+section {
+  margin: 40px 0;
+}
+
+h1, h2 {
+  color: #66bb6a;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.about-text {
+  flex: 2;
+}
+
+.about-photo {
+  flex: 1;
+}
+
+.profile-photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #66bb6a;
+}
+
+dl {
+  margin-left: 20px;
+}
+
+dt {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+dd a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+dd a:hover {
+  text-decoration: underline;
+  color: #66bb6a;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #66bb6a;
+  margin-top: 40px;
+}
+
+
